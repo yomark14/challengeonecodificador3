@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+  background-color: #E5E5E5;
+  font-family: 'Inter', sans-serif;
+}
+#sectionDer{
+  display: flex;
+  flex-direction: column;
+
+}
+#sectionIzq{
+  display: flex;
+  flex-direction: column;
+
+}
+
+#btnEncriptar{
+  height: 67px;
+  width: 328px;
+  background-color: #0A3871;
+  color: white;
+  font-weight: bold;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+#btnCopiar{
+  margin-top: 10px;
+  display: none;
+  height: 67px;
+  width: 328px;
+  background-color: #0A3871;
+  color: white;
+  font-weight: bold;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+#btnDesencriptar{
+  height: 67px;
+  width: 328px;
+  background-color:#D8DFE8;
+  border-color: #0A3871;
+  font-weight: bold;
+  color: #0A3871;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+#textoNoCifrado{
+  border: none;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  color:#0A3871;
+  font-size: 40px;
+  height: 322px;
+  width: 670px;
+}
+textarea:focus{
+  outline: 2px solid rgba(14, 148, 238, 0.774);
+}
+#fraseCifrada{
+  font-size: 20px;
+}
+.contenedorTittle{
+  display: flex;
+  flex-direction: row;
+  margin-top: 36px;
+}
+h1{
+  margin-left: 450px;
+}
+.botones{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+  margin: 20px;
+}
+.logoAlura{
+  margin-left: 45px;
+}
+.logoMunheco{
+  height: 206px;
+}
+.contenedorPrincipal{
+  display: flex;
+  flex-direction: row;
+  margin-left: 500px;
+}
